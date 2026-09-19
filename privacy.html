@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidad — BLINDSHOT Assistant</title>
+<meta name="description" content="Qué datos recopila BLINDSHOT Assistant, para qué se usan, cuánto se conservan y cómo solicitar su eliminación.">
+<meta name="theme-color" content="#0b0f1a">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Saltar al contenido</a>
+
+<header class="nav">
+  <div class="nav__inner">
+    <a class="brand" href="index.html">
+      <svg class="brand__mark" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+        <circle cx="16" cy="16" r="13" stroke="#5B8CFF" stroke-width="1.6" opacity=".55"/>
+        <circle cx="16" cy="16" r="7" stroke="#5B8CFF" stroke-width="1.6"/>
+        <line x1="16" y1="0" x2="16" y2="8" stroke="#5B8CFF" stroke-width="1.6"/>
+        <line x1="16" y1="24" x2="16" y2="32" stroke="#5B8CFF" stroke-width="1.6"/>
+        <line x1="0" y1="16" x2="8" y2="16" stroke="#5B8CFF" stroke-width="1.6"/>
+        <line x1="24" y1="16" x2="32" y2="16" stroke="#5B8CFF" stroke-width="1.6"/>
+        <circle class="reticle-dot" cx="16" cy="16" r="2.4" fill="#5B8CFF"/>
+      </svg>
+      <span class="brand__name">BLINDSHOT <span>Assistant</span></span>
+    </a>
+    <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menú">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav__links" id="nav-links">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="commands.html">Comandos</a></li>
+      <li><a href="privacy.html">Privacidad</a></li>
+      <li><a href="terms.html">Condiciones</a></li>
+      <li><a class="btn btn-primary btn-sm" href="#" data-invite>INVITE BOT</a></li>
+    </ul>
+  </div>
+</header>
+
+<main id="main">
+  <section class="page-head">
+    <div class="wrap">
+      <h1>Política de privacidad</h1>
+      <p>Cómo BLINDSHOT Assistant trata la información de los servidores y las personas que lo usan.</p>
+      <div class="meta-line">
+        <span>Última actualización: 19 de septiembre de 2026</span>
+        <span>Se aplica a: bot de Discord y sitio web</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="legal">
+    <div class="wrap legal__layout">
+
+      <nav class="legal__toc" aria-label="Índice">
+        <h4>Contenido</h4>
+        <ol>
+          <li><a href="#datos">Datos recopilados</a></li>
+          <li><a href="#discord">Datos de Discord</a></li>
+          <li><a href="#roblox">Datos de Roblox</a></li>
+          <li><a href="#uso">Uso de los datos</a></li>
+          <li><a href="#almacenamiento">Almacenamiento</a></li>
+          <li><a href="#seguridad">Seguridad</a></li>
+          <li><a href="#eliminacion">Eliminación</a></li>
+          <li><a href="#terceros">Terceros</a></li>
+          <li><a href="#menores">Edad mínima</a></li>
+          <li><a href="#cambios">Cambios</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ol>
+      </nav>
+
+      <div class="legal__body">
+
+        <div class="notice">
+          <p>Resumen: BLINDSHOT Assistant guarda lo mínimo para funcionar (identificadores y ajustes del servidor). No lee ni almacena el contenido de tus conversaciones, no vende datos y no los usa con fines publicitarios.</p>
+        </div>
+
+        <section id="datos">
+          <h2>1. Datos recopilados</h2>
+          <p>El bot solo almacena la información necesaria para prestar sus funciones. En concreto:</p>
+          <ul>
+            <li><strong>Identificadores de servidor</strong> (guild ID) y de los canales y roles que se configuran como destino de una función.</li>
+            <li><strong>Identificadores de usuario</strong> (user ID) de los miembros afectados por una acción de moderación, verificación o progreso de comunidad.</li>
+            <li><strong>Ajustes del servidor</strong>: canal de bienvenida, canal de sugerencias, rol de verificación, prefijos y opciones activadas.</li>
+            <li><strong>Registros de moderación</strong>: tipo de acción, motivo indicado por el moderador, identificador de quien la ejecuta y marca de tiempo.</li>
+            <li><strong>Datos de actividad</strong> cuando el sistema de niveles está activo: recuento de mensajes o experiencia acumulada asociada a un user ID.</li>
+            <li><strong>Registros técnicos</strong>: errores y uso de comandos, para diagnosticar fallos.</li>
+          </ul>
+          <p>No se almacena el contenido de los mensajes. Los mensajes que el bot procesa para ejecutar un comando se tratan en memoria y no se conservan, salvo el texto que la persona envía voluntariamente a una función pública como una sugerencia o una encuesta.</p>
+        </section>
+
+        <section id="discord">
+          <h2>2. Datos procedentes de Discord</h2>
+          <p>Al invitar al bot, Discord le concede acceso a determinada información del servidor según los permisos y los intents concedidos. Esa información puede incluir el nombre de usuario, el avatar, los roles y la fecha de entrada al servidor. Estos datos se consultan en el momento en que se necesitan y solo se guardan los identificadores descritos en el apartado anterior.</p>
+          <p>El uso de Discord se rige además por los <a href="https://discord.com/terms" target="_blank" rel="noopener">Términos de servicio</a> y la <a href="https://discord.com/privacy" target="_blank" rel="noopener">Política de privacidad</a> de Discord. BLINDSHOT Assistant no está afiliado a Discord Inc.</p>
+          <p>Si en el futuro se habilita el inicio de sesión mediante Discord OAuth2, se solicitará el consentimiento explícito y únicamente se pedirán los permisos mínimos necesarios (identidad básica y lista de servidores). Esta política se actualizará antes de activar esa función.</p>
+        </section>
+
+        <section id="roblox">
+          <h2>3. Datos relacionados con Roblox</h2>
+          <p>Si activas la vinculación de cuentas de Roblox, el bot podrá guardar:</p>
+          <ul>
+            <li>El <strong>identificador numérico de Roblox</strong> y el nombre de usuario de la cuenta vinculada.</li>
+            <li>La <strong>relación</strong> entre ese identificador y el user ID de Discord correspondiente.</li>
+            <li>El <strong>código de verificación temporal</strong> generado durante el proceso, que se invalida al completarse o al caducar.</li>
+          </ul>
+          <p>La verificación se realiza mediante información pública del perfil de Roblox. El bot <strong>nunca</strong> solicita ni almacena contraseñas, cookies de sesión ni credenciales de Roblox, y ninguna persona debe compartirlas. La vinculación es voluntaria: solo se produce si la persona ejecuta el comando correspondiente.</p>
+          <p>BLINDSHOT Assistant no está afiliado a Roblox Corporation. El uso de Roblox se rige por sus propias condiciones y política de privacidad.</p>
+        </section>
+
+        <section id="uso">
+          <h2>4. Uso de los datos</h2>
+          <p>La información recopilada se emplea exclusivamente para:</p>
+          <ul>
+            <li>Ejecutar los comandos solicitados y aplicar las acciones de moderación.</li>
+            <li>Recordar la configuración de cada servidor entre reinicios del bot.</li>
+            <li>Mantener historiales de avisos, niveles y verificaciones.</li>
+            <li>Detectar abusos del servicio y corregir errores.</li>
+          </ul>
+          <p>Los datos no se venden, no se alquilan y no se usan para publicidad ni para elaborar perfiles con fines comerciales.</p>
+        </section>
+
+        <section id="almacenamiento">
+          <h2>5. Almacenamiento y conservación</h2>
+          <p>Los datos se guardan en la base de datos del bot, alojada en la infraestructura utilizada para su funcionamiento, y se conservan mientras sean necesarios:</p>
+          <ul>
+            <li>La <strong>configuración y los registros del servidor</strong> se conservan mientras el bot permanezca en él.</li>
+            <li>Si el bot es expulsado o eliminado de un servidor, sus datos asociados se borran en un plazo máximo de <strong>30 días</strong>.</li>
+            <li>Los <strong>códigos de verificación temporales</strong> caducan en minutos y se descartan automáticamente.</li>
+            <li>Los <strong>registros técnicos</strong> se rotan periódicamente y no se conservan de forma indefinida.</li>
+          </ul>
+        </section>
+
+        <section id="seguridad">
+          <h2>6. Seguridad</h2>
+          <p>El acceso a la base de datos está restringido al responsable del bot. Las credenciales y el token del bot se guardan como variables de entorno en el servidor y nunca se incluyen en este sitio web ni en ningún código público.</p>
+          <p>Ningún sistema es completamente seguro. Si se produjera un incidente que afectara a los datos almacenados, se informará a los servidores afectados a través de los canales de soporte disponibles con la mayor brevedad posible.</p>
+        </section>
+
+        <section id="eliminacion">
+          <h2>7. Eliminación de datos</h2>
+          <p>Puedes solicitar la consulta o la eliminación de tus datos en cualquier momento:</p>
+          <ul>
+            <li><strong>Como miembro</strong>: ejecuta <code>/unlink</code> para eliminar una cuenta de Roblox vinculada, o escribe a la dirección de contacto indicando tu user ID de Discord.</li>
+            <li><strong>Como administrador del servidor</strong>: expulsa al bot para iniciar el borrado de los datos del servidor, o solicita la eliminación inmediata por correo indicando el ID del servidor.</li>
+          </ul>
+          <p>Las solicitudes se atienden en un plazo razonable, normalmente inferior a 30 días. Puede pedirse una comprobación de identidad o de permisos antes de borrar datos de un servidor.</p>
+        </section>
+
+        <section id="terceros">
+          <h2>8. Servicios de terceros</h2>
+          <p>Para funcionar, el bot se comunica con la API de Discord y, cuando la vinculación está activa, con la API pública de Roblox. Este sitio web carga tipografías desde Google Fonts. No se utilizan cookies de seguimiento ni herramientas de analítica publicitaria.</p>
+        </section>
+
+        <section id="menores">
+          <h2>9. Edad mínima</h2>
+          <p>El servicio está dirigido a personas que cumplen la edad mínima exigida por Discord en su territorio. No se recopilan datos de forma consciente de quienes no alcancen esa edad. Si se detecta un caso así, los datos se eliminarán al recibir el aviso.</p>
+        </section>
+
+        <section id="cambios">
+          <h2>10. Cambios en esta política</h2>
+          <p>Esta política puede actualizarse cuando se añadan funciones nuevas, como el inicio de sesión con Discord o el panel de control. La fecha de la parte superior refleja siempre la última revisión. Si un cambio afecta de forma sustancial al tratamiento de los datos, se anunciará en el servidor de soporte antes de aplicarlo. Seguir usando el bot después de una actualización implica aceptar la versión vigente.</p>
+        </section>
+
+        <section id="contacto">
+          <h2>11. Contacto</h2>
+          <div class="contact-box">
+            <p style="margin:0">Para cualquier duda sobre privacidad o para solicitar la eliminación de datos, escribe a <code>[CONTACT EMAIL]</code>.</p>
+          </div>
+        </section>
+
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div class="footer__about">
+        <a class="brand" href="index.html" style="margin-bottom:1rem">
+          <svg class="brand__mark" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+            <circle cx="16" cy="16" r="13" stroke="#5B8CFF" stroke-width="1.6" opacity=".55"/>
+            <circle cx="16" cy="16" r="7" stroke="#5B8CFF" stroke-width="1.6"/>
+            <line x1="16" y1="0" x2="16" y2="8" stroke="#5B8CFF" stroke-width="1.6"/>
+            <line x1="16" y1="24" x2="16" y2="32" stroke="#5B8CFF" stroke-width="1.6"/>
+            <line x1="0" y1="16" x2="8" y2="16" stroke="#5B8CFF" stroke-width="1.6"/>
+            <line x1="24" y1="16" x2="32" y2="16" stroke="#5B8CFF" stroke-width="1.6"/>
+            <circle class="reticle-dot" cx="16" cy="16" r="2.4" fill="#5B8CFF"/>
+          </svg>
+          <span class="brand__name">BLINDSHOT <span>Assistant</span></span>
+        </a>
+        <p>Bot de Discord para moderación, verificación y gestión de comunidades.</p>
+      </div>
+      <div>
+        <h4>Producto</h4>
+        <ul>
+          <li><a href="commands.html">Comandos</a></li>
+          <li><a href="index.html#features">Características</a></li>
+          <li><a href="index.html#stats">Estadísticas</a></li>
+          <li><a href="#" data-invite>Invitar el bot</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms of Service</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Discord</h4>
+        <ul>
+          <li><a href="#" data-invite>Añadir al servidor</a></li>
+          <li><a href="https://discord.com/terms" target="_blank" rel="noopener">Términos de Discord</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© <span data-year>2026</span> BLINDSHOT Assistant. Sin afiliación con Discord Inc. ni Roblox Corporation.</span>
+      <span>Application ID 1550802983921651922</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
